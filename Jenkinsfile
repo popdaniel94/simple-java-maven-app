@@ -1,8 +1,5 @@
 pipeline {
     agent {
-        docker {
-            image '20.10.2'
-        }
     }
     stages {
         stage('Build') {
