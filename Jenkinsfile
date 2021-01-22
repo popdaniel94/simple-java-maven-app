@@ -9,8 +9,8 @@ pipeline {
         stage('Test') { 
             steps {
                 sh 'mvn test' 
+				echo 'salut din pipline'
             }
-            echo 'salut din pipline'
         }
     }
 }
